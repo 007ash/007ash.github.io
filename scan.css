@@ -1,4 +1,4 @@
-/* style.css file*/
+
 body {
     display: flex;
     justify-content: center;
@@ -7,7 +7,8 @@ body {
     height: 100vh;
     box-sizing: border-box;
     text-align: center;
-    background: rgb(128 0 0 / 66%);
+    background: linear-gradient(to bottom, #dad0d0, #686868, #000000);
+    font-family: cursive;
 }
 .container {
     width: 100%;
@@ -16,15 +17,15 @@ body {
 }
 
 .container h1 {
-    color: #ffffff;
+    color: #463f3f;
 }
 
 .section {
-    background-color: #ffffff;
+    background-color: #7a7777a2;
     padding: 50px 30px;
     border: 1.5px solid #b2b2b2;
     border-radius: 0.25em;
-    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 20px 25px rgba(41, 38, 38, 0.438);
 }
 
 #my-qr-reader {
@@ -44,29 +45,34 @@ body {
 
 button {
     padding: 10px 20px;
-    border: 1px solid #b2b2b2;
+    border: 1px solid #0628be;
     outline: none;
-    border-radius: 0.25em;
+    border-radius: 20px;
     color: white;
     font-size: 15px;
     cursor: pointer;
     margin-top: 15px;
     margin-bottom: 10px;
-    background-color: #008000ad;
+    background-color: #0628be;
     transition: 0.3s background-color;
 }
 
 button:hover {
-    background-color: #008000;
+    background-color:#0628be88 ;
 }
 
 #html5-qrcode-anchor-scan-type-change {
     text-decoration: none !important;
-    color: #1d9bf0;
+    color: #1dc6f0;
 }
 
 video {
     width: 100% !important;
     border: 1px solid #b2b2b2 !important;
     border-radius: 0.25em;
+}
+
+.back{
+    color: white;
+    font-size: 20px;
 }
