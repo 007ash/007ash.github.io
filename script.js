@@ -15,5 +15,5 @@ window.onscroll = function() {
 };
 
 function redirect() {
-    window.location.href = "https://qreader.online/";
+    window.location.href = "scan.html";
 }
